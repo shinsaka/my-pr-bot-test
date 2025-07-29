@@ -17,6 +17,8 @@ jobs:
         with:
           aws-region: ap-northeast-1
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: check
         run: pwd && ls -la
       - name: PR Agent action step
