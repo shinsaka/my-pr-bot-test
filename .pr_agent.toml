@@ -1,6 +1,6 @@
 [config]
-model = "bedrock/apac.anthropic.claude-sonnet-4-20250514-v1:0"
-#model = "bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0"
+#model = "bedrock/apac.anthropic.claude-sonnet-4-20250514-v1:0"
+model = "bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0"
 
 [pr_reviewer]
 extra_instructions = "answer in Japanese"
